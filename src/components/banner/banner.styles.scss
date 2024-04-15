@@ -1,0 +1,137 @@
+.banner__container {
+    position: relative;
+    max-width: 90rem;
+    height: 85vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 800px){
+        align-items: flex-start;
+        
+    }
+
+
+
+    .banner__content {
+        max-width: 45rem;
+        position: relative;
+
+        @media screen and (max-width: 800px){
+            
+                max-width: 25rem;
+                position: relative;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                margin-top: 5rem;
+                
+
+        }
+
+
+        .banner__h4 {
+            font-size: 3rem;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            transform: translateX(-400px);
+
+            opacity: 0;
+            @media screen and (max-width: 800px){
+                font-size: 2rem;
+               
+        }
+        }
+
+        .banner__h1 {
+            font-size: 6rem;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            transform: translateY(-200px);
+            opacity: 0;
+            @media screen and (max-width: 800px){
+                font-size: 4.8rem;
+               
+        }
+
+
+
+
+
+
+            .banner__span {
+                display: inline-block;
+                height: 1.2rem;
+                width: 1.2rem;
+                margin-left: 1rem;
+                background-color: rgb(255, 32, 78);
+            }
+
+
+        }
+.banner__btns{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+
+    @media screen and (max-width: 800px){
+        margin-top:5rem;
+    }
+    .banner__icon--git {
+        height: 3rem;
+        margin: 0 2rem;
+        fill: white;
+        transition: 0.7s ease;
+    }
+    .banner__icon--git:hover {
+        fill: rgb(255, 32, 78);
+       cursor: pointer;
+    }
+}
+        
+
+
+    }
+
+    .banner__img {
+        z-index: 100;
+        margin-bottom: 3rem;
+
+    }
+
+    .banner__icon--container {
+
+        position: absolute;
+      
+        bottom: 1rem;
+     
+@media screen and (max-width:800px){
+    bottom: 2rem;
+}
+
+        .banner__icon--content {
+            display: flex;
+            flex-direction: column;
+
+            .banner__chevronIcon {
+
+                fill: #ffffff;
+                margin-top: 1rem;
+                cursor: pointer;
+                z-index: 500;
+                overflow: visible
+            }
+
+            .banner__iconText {
+
+                font-size: 2rem;
+                color: rgb(255, 32, 78);
+                font-family: "Caveat", sans-serif;
+            }
+
+        }
+
+    }
+
+
+}
